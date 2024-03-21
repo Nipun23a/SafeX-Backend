@@ -1,0 +1,32 @@
+body {
+  margin-left: 250px;
+  background-image: url("../img/background.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+
+
+
+
+
+/* Custom styling for the search bar */
+.input-group {
+    max-width: 500px; /* Adjust as needed */
+    margin: 0 auto; /* Center the search bar */
+  }
+  
+  /* Additional styling for the search button */
+  .btn-primary {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+  }
+
+.content{
+    background: url(/img/background.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+

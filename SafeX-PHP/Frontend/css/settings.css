@@ -1,0 +1,16 @@
+body {
+    
+  background-image: url("../img/background.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+
+
+/* Center align the card */
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Set the height of the container to viewport height */
+  }

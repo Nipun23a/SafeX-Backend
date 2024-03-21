@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "../.."
+		},
+		{
+			"path": "../../../SafeX"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "SafeX"
+	}
+}

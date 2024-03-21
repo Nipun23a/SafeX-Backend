@@ -1,0 +1,35 @@
+
+  
+  /* Content Styles */
+  body {
+
+    background-image: url("../img/background.jpg");
+    background-size: cover;
+    background-position: center;
+  }
+
+
+
+.materials{
+  background-color: #32478c
+  
+}
+
+.box{
+  background-color: #cdf0ff;
+
+}
+
+h6{
+  color: #ffffff;
+}
+
+
+
+h1{
+  font-family: "Caveat", cursive;
+  position:relative;
+  color: #ffffff;
+  padding: auto;
+  
+}

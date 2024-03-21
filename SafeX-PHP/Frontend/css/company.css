@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+body{
+    margin-top: 10px;
+    margin-left: 220px;
+    font-family: 'Poppins', sans-serif;
+}
+.main-container{
+    display: flex;
+    width: 99%;
+    height: 250px;
+    border: 1px solid black;
+}
+.upper-part{
+    margin-top: 10px;
+    display: flex;
+    position: relative;
+    
+    
+}
+.information-box{
+    width: 302.2px;
+    height: 24.3px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    background-color: #f8f8f8;
+    white-space: pre-wrap;
+    overflow-x: auto;
+    font-family: monospace;
+}
+.item-information{
+    margin-top: 10px;
+    width: 523px;
+    height: 190px;
+    border: 1px solid black;
+}
+#item-information{
+    margin-left: 10px;
+}
+.information{
+    margin-left: 10px;
+    margin-top: 15px;
+}
+.input-container input{
+    width: 343.2px;
+    height: 29.5px;
+    outline: none;
+}
+.input-container input:hover{
+    outline: none;
+}
+.input-container button{
+    width: 129.7px;
+    height: 29.5px;
+    border-radius: 0;
+    margin-left: 43.4px;
+    background: green;
+    color: white;
+}
+.add-button-container{
+    position: absolute;
+    top: 115px;
+    right: -100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.add-button {
+    position: absolute;
+    justify-self: end;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    width: 196.7px;
+    height: 215.6px;
+    border:none;
+    background: green;
+    font-size: 80px; /* You can adjust the size as needed */
+    color: black; /* Change the color as needed */
+    cursor: pointer;
+    
+}
+.table-container {
+    margin-top: 20px; /* Adjust margin as needed */
+    width: 99.5%;
+    overflow-x: auto;
+}
+
+.data-table {
+    border-collapse: collapse;
+    width: 99.5%;
+    border: 1px solid #ccc;
+    margin-top: 10px; /* Adjust margin as needed */
+    
+}
+
+.data-table th{
+    position: relative;
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: center;
+    background-color: #00bf63;
+    color: white;
+    font-weight: 400;
+    
+}
+.data-table td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: center;
+}
+.resizable {
+    position: relative;
+    user-select: none;
+    padding-right: 16px;
+}
+.resize-handle {
+    position: absolute;
+    top: 0;
+    right: -8px;
+    width: 16px;
+    height: 100%;
+    cursor: col-resize;
+}
+.form{
+            
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 180px;
+    background: white;
+}
+.form-container{
+    border: 1px solid #ccc;
+    padding: 10px;
+    width: 650px;
+    height: 100%;
+    position: relative;
+    
+}
+.button-container{
+align-content: right;
+margin-top: 10px;
+display: flex;
+gap: 15px; 
+}
+.button {
+
+padding: 10px 20px;
+color: white;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+font-size: 13px;
+}
+#reset{
+background: red;
+}
+#submit{
+background: green;
+}
+.button:hover {
+box-shadow: 0 0 5px rgba(0, 0, 0, 0.3); /* Add box shadow on hover */
+}
+.add-new-item-input{
+margin-top: 15px;
+position: relative;
+
+}
+.input-box{
+width: 581.2px;
+height: 39px;
+}
+.close-button {
+position: absolute;
+top: 5px;
+right: 5px;
+cursor: pointer;
+}
+
+.close-button::before {
+content: "X";
+font-weight: bold;
+}
+.category{
+display: none;
+}
+.blur {
+filter: blur(5px); /* Apply blur to elements with this class */
+transition: filter 0.3s;
+}
+.overlay {
+position: fixed;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+display: none;
+justify-content: center;
+align-items: center;
+z-index: 9999; /* Ensure the overlay is on top */
+}
+.input-container{
+display: flex;
+align-items: center;
+justify-content: center;
+height: 200px;
+
+}
+.btn{
+background: red;
+color: white;
+padding: 10px 30px;
+text-decoration: none;
+}
+.btn:hover{
+box-shadow: #ccc;
+}

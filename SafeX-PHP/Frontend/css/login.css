@@ -1,0 +1,77 @@
+body{
+  margin: 0px;
+  padding: 0px;
+}
+
+/*..Hero section..*/
+
+#hero{
+  background: url(../img/login.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+}
+/*..heading section..*/
+h1{
+  font-family: "Caveat", cursive;
+  position:relative;
+}
+
+@media(max-width:420px){
+  h1{
+    font-size: 50px;   
+  }
+}
+
+.para{
+  font-family: "poppins", cursive;
+}
+
+
+.herotext{
+  font-weight: 500;
+  font-size: 100px;
+}
+
+
+form{
+  border-radius: 20px;
+  background-color:none;
+  padding: 50px;
+}
+.form-control{
+  color: rgba(0,0,0,.87);
+  border-bottom-color: rgba(0,0,0,.42);
+  box-shadow: none !important;
+  border: none;
+  border-bottom: 1px solid;
+  border-radius: 4px 4px 0 0;
+  }
+
+.btn{
+  font-weight: 600 !important;
+}
+
+.btn-primary{
+  background-color: #000080 !important;
+}
+
+.btn-primary:hover {
+  background-color:#19BDFF !important;
+}
+
+
+
+
+.footerBottom{
+  text-align: center;
+  
+  padding: 20px;
+}
+
+.footerBottom p{
+  color:bisque;
+  margin: 5px;
+  
+}
