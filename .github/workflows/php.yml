@@ -20,7 +20,7 @@ jobs:
     - name: Change directory to SafeX-PHP
       run: cd SafeX-PHP
 
-    - name: List files in directory
+    - name: List contents of SafeX-PHP directory
       run: ls -la
 
     - name: Validate composer.json and composer.lock
